@@ -497,6 +497,22 @@ header {
   margin-bottom: 30px;
 }
 
+.contacto-info-centrado {
+  padding-right: 0;
+}
+
+.contacto-info-centrado .contacto-card {
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacto-info-centrado .contacto-redes {
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .contacto-card {
   background-color: var(--color-blanco);
   border-radius: 12px;
