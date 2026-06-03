@@ -468,8 +468,8 @@ header {
 
 /* ─── CUENTAS ────────────────────────────────────── */
 .cuentas-section {
-  background-color: var(--color-rosa-claro);
-  padding: 90px 0;
+  background-color: var(--color-blanco);
+  padding: 90px 0 50px;
 }
 
 .cuentas-grid {
@@ -559,7 +559,7 @@ header {
 /* ─── CONTACTO ───────────────────────────────────── */
 .contacto-section {
   background-color: var(--color-rosa-claro);
-  padding: 90px 0;
+  padding: 60px 0;
   position: relative;
   overflow: hidden;
 }
