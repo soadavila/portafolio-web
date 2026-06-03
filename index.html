@@ -323,28 +323,34 @@
     <div class="row justify-content-center">
 
       <!-- Datos de contacto -->
-      <div class="col-12 col-lg-4 contacto-info">
+      <div class="col-12 col-md-8 col-lg-6 contacto-info contacto-info-centrado">
 
         <div class="contacto-card">
           <span class="contacto-icono"><i class="fa-solid fa-envelope"></i></span>
-          <p class="contacto-label">Correo electrónico</p>
-          <p class="contacto-dato">soadavila@gmail.com</p>
+          <div>
+            <p class="contacto-label">Correo electrónico</p>
+            <p class="contacto-dato">soadavila@gmail.com</p>
+          </div>
         </div>
 
         <div class="contacto-card">
           <span class="contacto-icono"><i class="fa-solid fa-phone"></i></span>
-          <p class="contacto-label">Teléfono / WhatsApp</p>
-          <p class="contacto-dato">+504 3223-6886</p>
+          <div>
+            <p class="contacto-label">Teléfono / WhatsApp</p>
+            <p class="contacto-dato">+504 3223-6886</p>
+          </div>
         </div>
 
         <div class="contacto-card">
           <span class="contacto-icono"><i class="fa-brands fa-instagram"></i></span>
-          <p class="contacto-label">Instagram</p>
-          <p class="contacto-dato">@soadavila · @beachyscar</p>
+          <div>
+            <p class="contacto-label">Instagram</p>
+            <p class="contacto-dato">@soadavila · @beachyscar</p>
+          </div>
         </div>
 
         <!-- Redes sociales -->
-        <div class="contacto-redes">
+        <div class="contacto-redes justify-content-center">
           <a href="https://instagram.com/soadavila" target="_blank" class="red-social" aria-label="Instagram">
             <i class="fa-brands fa-instagram"></i>
           </a>
@@ -359,47 +365,6 @@
           </a>
         </div>
 
-      </div>
-
-      <!-- Formulario -->
-      <div class="col-12 col-lg-7 contacto-form-col">
-        <form id="form-contacto" name="form-contacto" action="" method="post" class="contacto-form">
-
-          <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre completo</label>
-            <input type="text" id="nombre" name="nombre" class="form-control campo-input"
-              placeholder="Tu nombre" required autocomplete="name">
-          </div>
-
-          <div class="mb-3">
-            <label for="correo" class="form-label">Correo electrónico</label>
-            <input type="email" id="correo" name="correo" class="form-control campo-input"
-              placeholder="tucorreo@ejemplo.com" required autocomplete="email">
-          </div>
-
-          <div class="mb-3">
-            <label for="asunto" class="form-label">Asunto</label>
-            <select id="asunto" name="asunto" class="form-select campo-input">
-              <option value="0">-- Seleccione un asunto --</option>
-              <option value="diseno">Diseño Gráfico</option>
-              <option value="redes">Manejo de Redes Sociales</option>
-              <option value="audiovisual">Producción Audiovisual</option>
-              <option value="evento">Cobertura de Eventos</option>
-              <option value="otro">Otro</option>
-            </select>
-          </div>
-
-          <div class="mb-4">
-            <label for="mensaje" class="form-label">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" class="form-control campo-input"
-              rows="5" cols="60" placeholder="Contame sobre tu proyecto..." required></textarea>
-          </div>
-
-          <button type="submit" name="submit" class="btn-form-enviar">
-            Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
-          </button>
-
-        </form>
       </div>
 
     </div>
