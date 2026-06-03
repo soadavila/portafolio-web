@@ -1,4 +1,3 @@
-
 :root {
   --color-rosa:        #ffc5dc;
   --color-rosa-claro:  #fff0f6;
@@ -424,6 +423,47 @@ header {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 0;
+}
+
+/* ─── PORTAFOLIO: ITEM DE VIDEO ───────────────────── */
+.portafolio-video-link {
+  display: block;
+  text-decoration: none;
+}
+
+.portafolio-video-wrap {
+  cursor: pointer;
+}
+
+.portafolio-video-overlay {
+  background-color: rgba(187, 62, 136, 0.70);
+}
+
+.portafolio-play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background-color: var(--color-blanco);
+  border-radius: 50%;
+  transition: transform 0.3s, background-color 0.3s;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+
+.portafolio-play-btn i {
+  font-size: 28px;
+  color: var(--color-magenta);
+  margin-left: 2px; /* compensación visual del icono de YouTube */
+}
+
+.portafolio-item:hover .portafolio-video-overlay {
+  opacity: 1;
+}
+
+.portafolio-item:hover .portafolio-play-btn {
+  transform: scale(1.1);
+  background-color: var(--color-rosa-claro);
 }
 
 /* ─── CONTACTO ───────────────────────────────────── */
