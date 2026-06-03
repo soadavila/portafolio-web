@@ -466,6 +466,96 @@ header {
   background-color: var(--color-rosa-claro);
 }
 
+/* ─── CUENTAS ────────────────────────────────────── */
+.cuentas-section {
+  background-color: var(--color-rosa-claro);
+  padding: 90px 0;
+}
+
+.cuentas-grid {
+  row-gap: 24px;
+}
+
+.cuenta-item {
+  margin-bottom: 8px;
+}
+
+.cuenta-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  padding: 28px 16px 22px;
+  background-color: var(--color-blanco);
+  border-radius: 16px;
+  border: 1px solid var(--color-rosa);
+  transition: box-shadow 0.3s, transform 0.3s;
+  height: 100%;
+}
+
+.cuenta-card:hover {
+  box-shadow: 0 8px 32px rgba(187, 62, 136, 0.16);
+  transform: translateY(-5px);
+}
+
+.cuenta-avatar-wrap {
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.cuenta-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-rosa);
+  display: block;
+  background-color: var(--color-rosa-claro);
+  transition: border-color 0.3s;
+}
+
+.cuenta-card:hover .cuenta-avatar {
+  border-color: var(--color-magenta);
+}
+
+.cuenta-ig-badge {
+  position: absolute;
+  bottom: 0;
+  right: -4px;
+  width: 26px;
+  height: 26px;
+  background-color: var(--color-magenta);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-blanco);
+}
+
+.cuenta-ig-badge i {
+  font-size: 12px;
+  color: var(--color-blanco);
+}
+
+.cuenta-nombre {
+  font-family: var(--font-principal);
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--color-negro);
+  margin-bottom: 4px;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.cuenta-handle {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-magenta);
+  margin-bottom: 0;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
 /* ─── CONTACTO ───────────────────────────────────── */
 .contacto-section {
   background-color: var(--color-rosa-claro);
