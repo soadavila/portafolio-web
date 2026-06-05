@@ -278,17 +278,47 @@ header {
 
 .acerca-figura {
   margin: 0;
-  background-color: var(--color-rosa-claro);
+  position: relative;
   border-radius: 20px;
-  overflow: hidden;
-  padding: 20px 20px 0;
+  overflow: visible;
+  padding: 0;
+}
+
+.acerca-figura::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: -16px;
+  bottom: -16px;
+  background-color: var(--color-rosa);
+  border-radius: 20px;
+  z-index: 0;
+}
+
+.acerca-figura::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 60px;
+  height: 60px;
+  border-top: 3px solid var(--color-magenta);
+  border-right: 3px solid var(--color-magenta);
+  border-radius: 0 12px 0 0;
+  z-index: 3;
 }
 
 .acerca-foto {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center top;
   display: block;
-  max-height: 480px;
+  height: 480px;
+  border-radius: 16px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 12px 40px rgba(187, 62, 136, 0.15);
 }
 
 .acerca-contenido {
