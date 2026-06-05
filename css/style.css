@@ -497,7 +497,13 @@ header {
 .portafolio-play-btn i {
   font-size: 28px;
   color: var(--color-magenta);
-  margin-left: 2px; /* compensación visual del icono de YouTube */
+  margin-left: 2px;
+}
+
+.portafolio-ig-btn i {
+  font-size: 26px;
+  color: var(--color-magenta);
+  margin-left: 0;
 }
 
 .portafolio-item:hover .portafolio-video-overlay {
